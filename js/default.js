@@ -9,7 +9,7 @@ if(result){
   document.getElementById('choice').textContent='キャンセルが押された';
 }
 
-var number=Math.floor(Math.random()*3):
+var number=Math.floor(Math.random()*3);
 var answer=parseInt(window.prompt('数当てゲーム  o~2の数字を入力してください'));
 
 var message;
