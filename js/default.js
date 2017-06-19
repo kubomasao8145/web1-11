@@ -16,18 +16,16 @@ var message;
 
 while(1){
 if(answer===number){
-
-  message='あたり';
-  break;
+    message='あたり';
+    document.getElementById('choice').textContent=message;
+    break;
   }else if(answer<number){
-  message='残念もっと大きいです';
+    message='残念もっと大きいです';
   }else if(number<answer){
-  message='残念もっと小さいです';
+    message='残念もっと小さいです';
   }else{
-  message='0~3の数字を入力してください';
+    message='0~3の数字を入力してください';
   }
   document.getElementById('choice').textContent=message;
- 
-  
 }
   
