@@ -18,7 +18,7 @@ if(answer===number){
   message='あたり';
   }else if(answer<number){
   message='残念もっと大きいです';
-  }else if{
+  }else if(number<answer){
   message='残念もっと小さいです';
   }else{
   message='0~3の数字を入力してください';
