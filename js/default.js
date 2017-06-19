@@ -13,6 +13,9 @@ var number=Math.floor(Math.random()*3);
 var answer=parseInt(window.prompt('数当てゲーム  o~2の数字を入力してください'));
 
 var message;
+var AnswerCount=3;
+
+while(AnswerCount=3){
 if(answer===number){
 
   message='あたり';
@@ -24,4 +27,7 @@ if(answer===number){
   message='0~3の数字を入力してください';
   }
   document.getElementById('choice').textContent=message;
+  
+  AnswerCount++;
+}
   
