@@ -10,12 +10,12 @@ if(result){
 }
 
 var number=Math.floor(Math.random()*3);
-var answer=parseInt(window.prompt('数当てゲーム  o~2の数字を入力してください'));
 
 var message;
 
 while(1){
-if(answer===number){
+  var answer=parseInt(window.prompt('数当てゲーム  o~2の数字を入力してください'));
+  if(answer===number){
     message='あたり';
     document.getElementById('choice').textContent=message;
     break;
