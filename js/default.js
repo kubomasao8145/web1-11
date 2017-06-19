@@ -29,5 +29,6 @@ if(answer===number){
   document.getElementById('choice').textContent=message;
   
   AnswerCount++;
+  break;
 }
   
